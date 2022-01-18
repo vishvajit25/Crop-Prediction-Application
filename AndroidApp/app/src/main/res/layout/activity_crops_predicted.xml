@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    android:layout_centerHorizontal="true"
+    tools:context=".CropsPredictedActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:alpha="0.5">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="hii"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bold"
+        android:id="@+id/tv1"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tv1"
+        android:progressBackgroundTint="#B5AAAA"
+        android:progressTint="#E91E63"
+        style="@android:style/Widget.ProgressBar.Horizontal"></ProgressBar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/prog"
+        android:gravity="center_vertical"
+        android:text="ACCURACY :"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/digital"
+        android:id="@+id/tw2"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/prog"
+        android:gravity="center_vertical"
+        android:text="xy %"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/digital"
+        android:id="@+id/tw"></TextView>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/light_green"
+        android:text="See More"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
+
