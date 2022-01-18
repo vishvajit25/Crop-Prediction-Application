@@ -1,4 +1,4 @@
-# Lets_HackIT  
+##Crop_Prediction_Application
 
 This repo is maintained for the purpose of android studio learners. This is an android application integrated with IoT and ML. Inputs are given automatically using GPS and IoT . All user has to do is enter the time of year and bingo, Crop is predicted.
 
